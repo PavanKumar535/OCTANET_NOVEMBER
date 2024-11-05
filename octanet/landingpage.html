@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyTube - Video Downloader</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <nav class="navbar">
+        <div class="logo">EasyTube</div>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How It Works</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </nav>
+
+      <header class="hero">
+        <h1>Download Any Video</h1>
+        <p class="tagline">The fastest way to download videos from YouTube, Instagram, Twitter, and more!</p>
+        
+        <div class="search-container">
+          <input 
+            type="text" 
+            id="videoUrl" 
+            placeholder="Paste video URL here..."
+            class="url-input"
+          >
+          <button id="downloadBtn" class="download-btn">Download Now</button>
+        </div>
+        
+        <div class="supported-platforms">
+          <span>Supported Platforms:</span>
+          <div class="platform-icons">
+            <div class="platform">YouTube</div>
+            <div class="platform">Instagram</div>
+            <div class="platform">Twitter</div>
+          </div>
+        </div>
+      </header>
+
+      <section id="features" class="features-section">
+        <h2>Why Choose EasyTube?</h2>
+        <div class="features">
+          <div class="feature-card">
+            <div class="feature-icon">🚀</div>
+            <h3>Lightning Fast</h3>
+            <p>Download videos in seconds with our optimized engine</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎥</div>
+            <h3>Multiple Platforms</h3>
+            <p>Support for all major social media platforms</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>High Quality</h3>
+            <p>Download in the highest available quality</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Copy URL</h3>
+            <p>Copy the video URL from any supported platform</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Paste Link</h3>
+            <p>Paste the URL in the download box above</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Download</h3>
+            <p>Choose your preferred quality and download</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="download-section">
+        <div id="relatedVideos" class="related-videos">
+          <h2>Related Videos</h2>
+          <div id="videoGrid" class="video-grid"></div>
+        </div>
+
+        <div id="downloadOptions" class="download-options">
+          <h2>Download Options</h2>
+          <div id="qualityOptions" class="quality-options"></div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>Is it free to use?</h3>
+            <p>Yes, EasyTube is completely free to use for all supported platforms.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What formats are supported?</h3>
+            <p>We support MP4, MP3, and various other popular formats.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Is it safe?</h3>
+            <p>Absolutely! We use secure connections and don't store any of your data.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© 2024 EasyTube. All rights reserved.</p>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
